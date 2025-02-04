@@ -8,7 +8,7 @@ KERNELNAME:=Image dtbs
 CPU_TYPE:=cortex-a53
 SUBTARGETS:=ipq50xx ipq60xx ipq807x
 
-KERNEL_PATCHVER:=4.4.60
+KERNEL_PATCHVER:=4.4
 
 include $(INCLUDE_DIR)/target.mk
 DEFAULT_PACKAGES += \
